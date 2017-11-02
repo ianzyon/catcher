@@ -27,7 +27,7 @@ $arquivo = fopen("ips.txt", "wb");
 fwrite($arquivo, $string);
 fclose($arquivo);
 
-header('Location: http://facebook.com');
+// header('Location: http://facebook.com');
 
 ?>
 </html>
